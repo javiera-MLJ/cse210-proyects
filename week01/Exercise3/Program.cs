@@ -15,23 +15,20 @@ class Program
 
         while (guess != mNumber)
         {
-            Console.Write("What is your guess? ");
+            Console.Write("what is your guess? (between 1 and 999): ");
             string userInput = Console.ReadLine();
             guess = int.Parse(userInput);
 
-            for (int i = 0; i < 1; i++)
-            {
-                attempts++;
-            }
+            attempts++;
 
             if (guess > mNumber)
             {
-                Console.WriteLine("Higher");
+                Console.WriteLine("Lower");
             }
     
             else if (guess < mNumber)
             {
-                Console.WriteLine("Lower");
+                Console.WriteLine("Higher");
             }
 
             else
@@ -40,7 +37,7 @@ class Program
             }
     
         }
-
-            Console.WriteLine($"you have made {attempts} attempts");
+            Console.WriteLine();
+            Console.WriteLine($"You have made {attempts} attempts");
     }
 }
