@@ -44,7 +44,7 @@ public class Order
 
     public string ShippingLabel()
     {
-        return $"{_customer.DisplayText()}, {_customer.GetAddress().GetDisplayAddress()}";
+        return _customer.DisplayText();
     }
     
     public void AddProduct(Product product)

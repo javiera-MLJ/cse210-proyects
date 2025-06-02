@@ -27,7 +27,7 @@ public class Video
         int count = 1;
         foreach (Comment c in _comments)
         {
-            commentList += $"{count}. {c.GetComment()}\n";
+            commentList += $"{count}. {c.GetComment()}";
             count++;
         }
         return commentList;

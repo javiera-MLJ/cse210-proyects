@@ -11,7 +11,7 @@ class Program
         order1.AddProduct(new Product("Pants", "O475", 30, 4));
         Console.WriteLine(order1.ShippingLabel());
         Console.WriteLine(order1.PackingLabel());
-        Console.WriteLine($"Total Price: {order1.TotalPrice()}\n");
+        Console.WriteLine($"Total Price: ${order1.TotalPrice()}\n");
 
         Console.WriteLine("-----------------------------\n");
 
@@ -22,7 +22,7 @@ class Program
         order2.AddProduct(new Product("Eyeliner", "U272", 6, 250));
         Console.WriteLine(order2.ShippingLabel());
         Console.WriteLine(order2.PackingLabel());
-        Console.WriteLine($"Total Price: {order2.TotalPrice()}\n");
+        Console.WriteLine($"Total Price: ${order2.TotalPrice()}\n");
 
     }
 }
