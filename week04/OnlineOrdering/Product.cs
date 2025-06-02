@@ -18,6 +18,6 @@ public class Product
     }
     public string GetDisplayProduct()
     {
-        return $"{_name}, (ID: {_id})\n"; 
+        return $"{_name}, (ID: {_id}), Price: ${_price}, Quantity: {_quantity} Subtotal: ${TotalCost()}\n"; 
     }
 }

@@ -21,6 +21,6 @@ public class Customer
 
     public string DisplayText()
     {
-        return _name; 
+        return $"{ _name}\n{_address.GetDisplayAddress()}"; 
     }
 }
