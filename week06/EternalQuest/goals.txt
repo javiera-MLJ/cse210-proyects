@@ -1,0 +1,2 @@
+Score:50
+SimpleGoal:leer las escrituras,leer al menos 10 minutos,50,True

@@ -21,8 +21,14 @@ class Program
 
             if (choice == "1")
             {
-                BreathingActivity breathing = new BreathingActivity();
-                breathing.Run();
+
+                Console.WriteLine("The types of Goals are:");
+                Console.WriteLine("1. Simple Goal");
+                Console.WriteLine("2. Eternal Goal");
+                Console.WriteLine("3. ChecklistGoal");
+                Console.Write("Which type of goal would you like to create: ");
+                string Select = Console.ReadLine();
+
             }
 
             else if (choice == "2")
